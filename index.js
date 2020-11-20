@@ -15,15 +15,13 @@ The function should:
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
 
-function createMenuItem(name,price,category){
-    return obj = {
-      name: 'name',
-      price: price,
-      category: 'category'
-    };
+function createMenuItem(name, price, category){
+   let obj = {name: name, price: price, category: category}
+   return obj
 }
 
-createMenuItem('tacos', 8, 'Lunch');
+createMenuItem('tacos', 8, 'lunch');
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
